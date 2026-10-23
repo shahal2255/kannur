@@ -5,11 +5,11 @@ export const COMPANY_INFO = {
   tagline: 'We Plant Your Brand. We Grow Your Business.',
   subheadline: 'Empowering businesses with innovative digital marketing, creative branding, and technology solutions that drive measurable growth.',
   email: 'contact@cyberwiseinfosolutions.com',
-  phone: '+1 (800) 555-2923',
-  phoneDisplay: '+1 (800) 555-CYBER',
-  whatsappNumber: '18005552923',
-  address: 'Tech Plaza, Suite 400, Innovation District, San Francisco, CA 94105',
-  hours: 'Monday – Friday: 9:00 AM – 6:00 PM PST',
+  phone: '+917558026894',
+  phoneDisplay: '+91 75580 26894',
+  whatsappNumber: '917558026894',
+  address: 'Calicut Road, Pradeeksha Colony, Angadippuram, Kerala, 679321',
+  hours: 'Monday – Friday: 9:00 AM – 5:00 PM IST',
   foundedYear: '2021',
 };
 

@@ -16,7 +16,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
   const [booking, setBooking] = useState<ConsultationBooking>({
     goal: 'Scale Inbound Leads & Revenue',
     preferredDate: '2026-10-26',
-    preferredTime: '10:00 AM PST',
+    preferredTime: '10:00 AM IST',
     fullName: '',
     email: '',
     phone: '',
@@ -36,10 +36,10 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
   ];
 
   const timeSlots = [
-    '09:30 AM PST',
-    '11:00 AM PST',
-    '02:00 PM PST',
-    '04:30 PM PST',
+    '09:30 AM IST',
+    '11:00 AM IST',
+    '02:00 PM IST',
+    '04:00 PM IST',
   ];
 
   const handleNext = () => {
@@ -160,7 +160,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
 
             <div>
               <label className="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
-                Available Time Windows (PST)
+                Available Time Windows (9:00 AM – 5:00 PM IST)
               </label>
               <div className="grid grid-cols-2 gap-2.5">
                 {timeSlots.map((slot) => (
@@ -244,7 +244,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({
                   type="tel"
                   value={booking.phone}
                   onChange={(e) => setBooking({ ...booking, phone: e.target.value })}
-                  placeholder="+1 (555) 000-0000"
+                  placeholder="+91 75580 00000"
                   className="w-full px-4 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-sm text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-cyan-500"
                 />
               </div>

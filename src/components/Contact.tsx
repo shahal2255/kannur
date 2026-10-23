@@ -218,7 +218,7 @@ export const Contact: React.FC<ContactProps> = ({
                         type="tel"
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                        placeholder="+1 (555) 000-0000"
+                        placeholder="+91 75580 00000"
                         className={`w-full px-4 py-3 rounded-xl bg-slate-900 border text-sm text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-colors ${
                           errors.phone ? 'border-rose-500/80 bg-rose-950/10' : 'border-slate-800 focus:border-cyan-500'
                         }`}
@@ -387,7 +387,7 @@ export const Contact: React.FC<ContactProps> = ({
                   </div>
                   <div>
                     <div className="text-xs font-semibold uppercase tracking-wider text-slate-400">
-                      Toll-Free Phone
+                      Direct Phone
                     </div>
                     <a
                       href={`tel:${COMPANY_INFO.phone}`}
@@ -450,7 +450,7 @@ export const Contact: React.FC<ContactProps> = ({
                 className="w-full py-3.5 px-4 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs sm:text-sm shadow-lg shadow-emerald-900/30 transition-all flex items-center justify-center gap-2 active:scale-95"
               >
                 <MessageCircle className="w-4 h-4" />
-                <span>Chat on WhatsApp (+1 800-555-CYBER)</span>
+                <span>Chat on WhatsApp ({COMPANY_INFO.phoneDisplay})</span>
               </button>
             </div>
           </div>

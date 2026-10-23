@@ -85,7 +85,7 @@ export const NotFoundPage: React.FC<NotFoundPageProps> = ({ onReturnHome }) => {
       </div>
 
       <div className="text-center text-xs text-slate-400 mt-12 border-t border-slate-900 pt-6">
-        {COMPANY_INFO.name} · San Francisco, CA · Toll-Free: {COMPANY_INFO.phoneDisplay}
+        {COMPANY_INFO.name} · Angadippuram, Kerala · Phone: {COMPANY_INFO.phoneDisplay}
       </div>
     </div>
   );

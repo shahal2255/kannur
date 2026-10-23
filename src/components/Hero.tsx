@@ -98,7 +98,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultation }) => {
                     <div className="w-2 h-2 rounded-full bg-cyan-400" />
                     <span className="text-xs font-semibold text-slate-200">CyberWise Studio Hub</span>
                   </div>
-                  <span className="text-[11px] font-mono text-cyan-400">San Francisco, CA</span>
+                  <span className="text-[11px] font-mono text-cyan-400">Kerala, India</span>
                 </div>
                 <p className="text-xs text-slate-400 leading-snug">
                   Integrated creative branding, performance marketing, and full-stack software development.

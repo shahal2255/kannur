@@ -163,7 +163,7 @@ export const Footer: React.FC<FooterProps> = ({
           {/* Col 4: Contact & Office (3 cols) */}
           <div className="lg:col-span-3 space-y-3">
             <div className="text-xs font-semibold uppercase tracking-wider text-slate-200">
-              San Francisco Studio
+              Kerala Headquarters
             </div>
             <div className="space-y-2.5 text-slate-400">
               <div className="flex items-start gap-2">
